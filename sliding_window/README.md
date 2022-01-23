@@ -23,7 +23,7 @@ for r < len(nums):
     process(nums[l:r])  // sum, product etc.
     while condition1(argv):
         # get output, process sth. etc.
-        # update l as needed (shrink window, for example)
+        l += 1 # update l as needed (shrink window, for example)
 ```
 
 ## Examples
