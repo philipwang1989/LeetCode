@@ -17,7 +17,7 @@ while l < len(nums):
 ```
 
 ## Examples
-### [LC 438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+### [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 Given two strings `s` and `p`, return an array of all the start indices of `p`'s anagrams in `s`. You may return the answer in any order.
 
 An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
@@ -39,9 +39,7 @@ The substring with start index = 6 is "bac", which is an anagram of "abc".
 - `s` and `p` consist of lowercase English letters.
 
 
-### [LC 713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)
+### [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)
 
-
-
-### [LC 209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+### [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 
