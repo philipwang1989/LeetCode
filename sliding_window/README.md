@@ -1,6 +1,6 @@
 # Sliding Window
 
-Template 1: find interval
+Template 1:
 ```Python
 l = 0
 while l < len(nums):
@@ -14,6 +14,16 @@ while l < len(nums):
         l = r
     else:
         l += 1
+```
+
+Template 2:
+```Python
+l = 0
+for r < len(nums):
+    process(nums[l:r])  // sum, product etc.
+    while condition1(argv):
+        # get output, process sth. etc.
+        # update l as needed (shrink window, for example)
 ```
 
 ## Examples
