@@ -54,6 +54,11 @@ Explanation: The 8 subarrays that have product less than 100 are:
 
 Note that [10, 5, 2] is not included as the product of 100 is not strictly less than k.
 
+**Constraints**
+- `1 <= nums.length <= 3 * 10**4`
+- `1 <= nums[i] <= 1000`
+- `0 <= k <= 10**6`
+
 
 ### [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 
