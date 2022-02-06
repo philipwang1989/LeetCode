@@ -57,7 +57,7 @@ Space: O(K)
 # Time and space complexity of priority queue operations:
 
 ## Heapify
-Time: O(N) [https://www.geeksforgeeks.org/time-complexity-of-building-a-heap/]
+Time: [O(N)](https://www.geeksforgeeks.org/time-complexity-of-building-a-heap/)
 
 Space: O(N)
 
