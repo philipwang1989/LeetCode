@@ -51,6 +51,8 @@ Time: O(NlogK)
 
 Space: O(K)
 
+# Examples:
+
 
 # Time and space complexity of priority queue operations:
 
