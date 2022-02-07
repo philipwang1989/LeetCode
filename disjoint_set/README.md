@@ -1,6 +1,7 @@
 # Disjoing set
 
 ## Implementation 
+Following LC Explore module:
 
 ```Python
 class UnionFind:
@@ -11,6 +12,7 @@ class UnionFind:
     def connected(self, x, y):
 ```
 
+### Basic find
 ```Python
 def find(self, x):
     while x != self.root[x]:
@@ -18,6 +20,7 @@ def find(self, x):
     return x
 ```
 
+### Optimized with path compression
 ```Python
 def find(self, x):
     if x == self.root[x]:
@@ -26,6 +29,7 @@ def find(self, x):
     return self.root[x]
 ```
 
+### Basic union function
 ```Python
 def union(self, x, y):
     rootX = self.find(x)
@@ -34,6 +38,7 @@ def union(self, x, y):
         self.root[rootY] = rootX
 ```
 
+### Optimized by union by rank
 ```Python
 def union(self, x, y):
     rootX = self.find(x)
@@ -48,6 +53,7 @@ def union(self, x, y):
             self.rank[rootX] += 1
 ```
 
+### Connected
 ```Python
 def connected(self, x, y):
     return self.find(x) == self.find(y)
